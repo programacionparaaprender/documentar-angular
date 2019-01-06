@@ -1,0 +1,45 @@
+https://angular.io/docs
+https://www.typescriptlang.org/docs/home.html
+https://compodoc.app/guides/getting-started.html
+https://ionicframework.com/docs/
+https://nodejs.org/es/
+https://github.com/compodoc-course
+https://github.com/compodoc-course/compodoc-angular-ionic
+https://compodoc.app/
+https://compodoc.app/guides/installation.html
+https://compodoc.app/guides/themes.html
+
+
+package.json 
+agregar en scripts
+
+"compodoc": "npx compodoc -p src/tsconfig.app.json" 
+
+luego ejecutar npm run compodoc
+
+esto se coloca luego para definir la carpeta donde se almacenara la documentación
+
+"compodoc": "npx compodoc -p src/tsconfig.app.json  --output src/docs"
+
+Abre la documentación
+Genera la documentación en el servidor localhost:8080
+
+--open
+--serve
+"compodoc": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open" 
+
+para agregar el tema 
+
+--theme material
+"compodoc-material": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme material"
+
+npm run compodoc-vagrant
+
+----------------------------
+realización de un sumario
+----------------------------
+
+
+
+
+

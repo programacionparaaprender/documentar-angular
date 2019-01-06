@@ -1,0 +1,33 @@
+/**
+Sta
+https://www.w3schools.com/colors/colors_names.asp
+**/
+:root {
+    /******************/
+    --alice-blue: #f0f8ff;
+    --antique-white: #faebd7;
+    --aqua: #00ffff;
+    --aqua-marine: #7fffd4;
+    --azure: #f0ffff;
+    --beige: #f5f5dc;
+    --bisque: #ffe4c4;
+    --black: #000000;
+    --blanched-almond: #ffebcd;
+    --blue: #0000ff;
+    --blue-violet: #8a2be2;
+    --brown: #a52a2a;
+    --burly-wood: #deb887;
+
+
+    /*** Buttons colors **************/
+    --btn-default-background: #f0f0f0;
+    /****BOOSTRAP V4 ALERTS**********/
+    --alert-primary: #0c5460;
+    --alert-secondary: #383d41;
+    --alert-success: #155724;
+    --alert-danger:#721c24;
+    --alert-warning: #856404;
+    --alert-info: #0c5460;
+    --alert-light: #818182;
+    --alert-dark: #1b1e21;
+}
