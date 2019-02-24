@@ -1,3 +1,8 @@
+-------------
+Extensiones
+----------------
+typescript importer
+
 https://angular.io/docs
 https://www.typescriptlang.org/docs/home.html
 https://compodoc.app/guides/getting-started.html
@@ -38,8 +43,34 @@ npm run compodoc-vagrant
 ----------------------------
 realización de un sumario
 ----------------------------
+https://compodoc.app/guides/tips-and-tricks.html
+
+añade información sobre el proyecto, que falta, funcionalidad
+
+mkdir src/aditional-docs
+touch src/aditional-docs/a-file.md
+touch src/aditional-docs/b-file.md 
+touch src/aditional-docs/summary.json
+
+"compodoc-plus": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs"
+
+----------------
+Añadir Favicon
+----------------
+https://compodoc.app/guides/usage.html
+package.json agregar
+"compodoc-favicon-title": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --customFavicon src/favicon.ico -n \"Angular Compodoc Cource\" "
+
+-----------
+ESTILOS
+------------------
+npm run compodoc-custom-style
+npm run compodoc-custom-style-personal
 
 
-
+-----------------
+Logo personal
+-----------------
+"compodoc-favicon-title-personal": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico --hideGenerator "
 
 

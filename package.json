@@ -13,7 +13,14 @@
     "compodoc": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open" ,
     "compodoc-material": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme material",
     "compodoc-laravel": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme laravel",
-    "compodoc-vagrant": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme vagrant"
+    "compodoc-vagrant": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme vagrant",
+    "compodoc-plus": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs",
+    "compodoc-favicon-title": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico  ",
+
+    "compodoc-custom-style": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico -y ./css/",
+
+    "compodoc-favicon-title-personal": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico --hideGenerator ",
+    "compodoc-custom-style-personal": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico -y ./css/ --hideGenerator "
   },
   "private": true,
   "dependencies": {
