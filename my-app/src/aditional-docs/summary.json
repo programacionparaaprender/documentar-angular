@@ -1,0 +1,22 @@
+[
+    {
+        "title": "A TITLE",
+        "file": "a-file.md"
+    },
+    {
+        "title": "B TITLE",
+        "file": "b-file.md",
+        "children": [
+            {
+                "title": "A TITLE",
+                "file": "b/b2-file.md",
+                "children": [
+                    {
+                        "title": "A TITLE",
+                        "file": "c/b3-file.md"
+                    }
+                ]
+            }
+        ]
+    }
+]

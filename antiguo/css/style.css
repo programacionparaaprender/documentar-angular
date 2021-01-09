@@ -1,0 +1,26 @@
+@import "./reset.css";
+@import "./bootstrap.min.css";
+@import "./bootstrap-card.css";
+@import "./prism.css";
+@import "./ionicons.min.css";
+@import "./compodoc.css";
+@import "./tablesort.css";
+
+/*MIS ESTILOS*/
+h1{
+color:yellow
+}
+
+
+.menu .title{
+    margin-top:200px;
+}
+.menu{
+    background-size:auto;
+    background-position-x:0%;
+    background-position-y:0%;
+    background: url('logo.png') no-repeat;
+    background-size:120px;
+    background-position-x:50%;
+    background-position-y:40%;
+}

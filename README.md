@@ -1,28 +1,104 @@
-# StarterBootstrapAdminAngular6
+# Crear proyecto
+npm install -g @angular/cli
+ng new my-app
+cd my-app
+ng serve --open
+npm install --save @angular/http @toverux/ngx-sweetalert2 sweetalert2
+npm install @compodoc/compodoc @types/node --save-dev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+#### dependencies
+@agm/core
+@agm/js-marker-clusterer
+@angular/http
+@toverux/ngx-sweetalert2
+chart.js
+core-js
+i18n-config
+js-marker-clusterer
+ng2-charts
+ngx-easy-table
+sweetalert2
+### dev dependencies
+@compodoc/compodoc
+@types/node
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+-------------
+## Extensiones
+----------------
+typescript importer
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://angular.io/docs
+https://www.typescriptlang.org/docs/home.html
+https://compodoc.app/guides/getting-started.html
+https://ionicframework.com/docs/
+https://nodejs.org/es/
+https://github.com/compodoc-course
+https://github.com/compodoc-course/compodoc-angular-ionic
+https://compodoc.app/
+https://compodoc.app/guides/installation.html
+https://compodoc.app/guides/themes.html
 
-## Build
+### Curso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+package.json 
+agregar en scripts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+"compodoc": "npx compodoc -p src/tsconfig.app.json" 
 
-## Running end-to-end tests
+luego ejecutar npm run compodoc
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+esto se coloca luego para definir la carpeta donde se almacenara la documentación
 
-## Further help
+"compodoc": "npx compodoc -p src/tsconfig.app.json  --output src/docs"
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# documentar angular usando compodoc
+Abre la documentación
+Genera la documentación en el servidor localhost:8080
+
+--open
+--serve
+"compodoc": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open" 
+
+para agregar el tema 
+
+--theme material
+"compodoc-material": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --theme material"
+
+npm run compodoc-vagrant
+
+----------------------------
+realización de un sumario
+----------------------------
+https://compodoc.app/guides/tips-and-tricks.html
+
+añade información sobre el proyecto, que falta, funcionalidad
+
+mkdir src/aditional-docs
+touch src/aditional-docs/a-file.md
+touch src/aditional-docs/b-file.md 
+touch src/aditional-docs/summary.json
+
+"compodoc-plus": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs"
+
+----------------
+Añadir Favicon
+----------------
+https://compodoc.app/guides/usage.html
+package.json agregar
+"compodoc-favicon-title": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --customFavicon src/favicon.ico -n \"Angular Compodoc Cource\" "
+
+-----------
+ESTILOS
+------------------
+npm run compodoc-custom-style
+npm run compodoc-custom-style-personal
+
+
+-----------------
+Logo personal
+-----------------
+"compodoc-favicon-title-personal": "npx compodoc -p src/tsconfig.app.json --output src/docs --serve --open --includes src/aditional-docs --name \"Angular Compodoc Cource\" --customFavicon src/favicon.ico --hideGenerator "
+
+
