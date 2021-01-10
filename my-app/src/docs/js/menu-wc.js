@@ -41,36 +41,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                     </ul>
                 </li>
-                    <li class="chapter additional">
-                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#additional-pages"'
-                            : 'data-target="#xs-additional-pages"' }>
-                            <span class="icon ion-ios-book"></span>
-                            <span>Additional documentation</span>
-                            <span class="icon ion-ios-arrow-down"></span>
-                        </div>
-                        <ul class="links collapse " ${ isNormalMode ? 'id="additional-pages"' : 'id="xs-additional-pages"' }>
-                                    <li class="link ">
-                                        <a href="additional-documentation/a-title.html" data-type="entity-link" data-context-id="additional">A TITLE</a>
-                                    </li>
-                                    <li class="chapter inner">
-                                        <a data-type="chapter-link" href="additional-documentation/b-title.html" data-context-id="additional">
-                                            <div class="menu-toggler linked" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#additional-page-7d1607ff85155fe9a1cfbfab90004d8d"' : 'data-target="#xs-additional-page-7d1607ff85155fe9a1cfbfab90004d8d"' }>
-                                                <span class="link-name">B TITLE</span>
-                                                <span class="icon ion-ios-arrow-down"></span>
-                                            </div>
-                                        </a>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="additional-page-7d1607ff85155fe9a1cfbfab90004d8d"' : 'id="xs-additional-page-7d1607ff85155fe9a1cfbfab90004d8d"' }>
-                                            <li class="link for-chapter2">
-                                                <a href="additional-documentation/b-title/a-title.html" data-type="entity-link" data-context="sub-entity" data-context-id="additional">A TITLE</a>
-                                            </li>
-                                            <li class="link for-chapter3">
-                                                <a href="additional-documentation/b-title/a-title/a-title.html" data-type="entity-link" data-context="sub-entity" data-context-id="additional">A TITLE</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                        </ul>
-                    </li>
                     <li class="chapter modules">
                         <a data-type="chapter-link" href="modules.html">
                             <div class="menu-toggler linked" data-toggle="collapse" ${ isNormalMode ?

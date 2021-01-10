@@ -41,7 +41,7 @@ https://compodoc.app/guides/installation.html
 https://compodoc.app/guides/themes.html
 
 ### Curso
-
+https://www.udemy.com/course/compodoc-crea-documentacion-en-angular-ionic/learn/lecture/13534432#overview
 
 package.json 
 agregar en scripts
