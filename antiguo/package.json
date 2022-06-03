@@ -28,7 +28,7 @@
     "@angular/animations": "6.0.3",
     "@angular/common": "~10.0.0",
     "@angular/compiler": "6.0.3",
-    "@angular/core": "~10.0.0",
+    "@angular/core": "~11.0.5",
     "@angular/forms": "~10.0.0",
     "@angular/http": "6.0.3",
     "@angular/platform-browser": "~10.0.0",
